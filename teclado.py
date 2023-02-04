@@ -1,5 +1,5 @@
 def ler_str(mensagem):
-        return input(mensagem)
+    return input(mensagem)
 
 
 def ler_int(mensagem):
