@@ -1,8 +1,8 @@
-from teclado import ler_str, ler_int, ler_float
+from util import teclado
 
-nome = ler_str("Qual o seu nome? ")
-idade = ler_int("Qual a sua idade? ")
-salario = ler_float("Qual o seu salário? ")
+nome = teclado.ler_str("Qual o seu nome? ")
+idade = teclado.ler_int("Qual a sua idade? ")
+salario = teclado.ler_float("Qual o seu salário? ")
 
 print(f"\nNome inserido: {nome}")
 print(f"Idade inserida: {idade}")

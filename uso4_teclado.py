@@ -1,4 +1,4 @@
-from util.teclado import ler_str, ler_int, ler_float
+from util.teclado import *
 
 nome = ler_str("Qual o seu nome? ")
 idade = ler_int("Qual a sua idade? ")
