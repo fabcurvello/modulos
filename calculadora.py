@@ -14,7 +14,7 @@ def subtrair(n1, n2):
 def multiplicar(n1, n2):
     return n1 * n2
 
-
-print("\n--- Utilizando o Arquivo Python modulo.py ---\n")
+if (__name__ == "__main__"):
+    print("\n--- Utilizando o Arquivo Python calculadora.py ---\n")
 
 

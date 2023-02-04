@@ -26,3 +26,5 @@ def ler_float(mensagem):
         return numero
 
 
+if (__name__ == "__main__"):
+    print("\n--- Utilizando o Arquivo Python teclado.py ---\n")
